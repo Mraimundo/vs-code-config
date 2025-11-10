@@ -7,11 +7,9 @@ O **README** mostra como configurar o vscode.
   "terminal.integrated.fontSize": 14,
   "workbench.colorTheme": "Dracula Refined",
   "workbench.iconTheme": "symbols",
-  "workbench.startupEditor": "newUntitledFile",
   "editor.tabSize": 2,
   "editor.fontSize": 18,
   "editor.lineHeight": 24,
-  "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "files.exclude": {
     "**/.git": true,
@@ -89,33 +87,8 @@ O **README** mostra como configurar o vscode.
   "typescript.tsserver.watchOptions": {},
   "symbols.hidesExplorerArrows": false,
   "workbench.productIconTheme": "fluent-icons",
-  "terminal.integrated.profiles.windows": {
-    "PowerShell": {
-      "source": "PowerShell",
-      "icon": "terminal-powershell"
-    },
-    "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
-      "args": [],
-      "icon": "terminal-cmd"
-    },
-    "Git Bash": {
-      "source": "Git Bash"
-    },
-    "Git_bash": {
-      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
-      "icon": "terminal-bash"
-    }
-  },
   "editor.language.colorizedBracketPairs": [],
   "editor.indentSize": "tabSize",
-  "editor.codeActionsOnSave": {
-
-
-  },
   "editor.language.brackets": [],
   "[javascript][javascriptreact][typescriptreact]": {
     "editor.codeActionsOnSave": {
@@ -124,7 +97,20 @@ O **README** mostra como configurar o vscode.
   },
   "terminal.integrated.env.windows": {},
   "console-ninja.featureSet": "Community",
-  "editor.semanticTokenColorCustomizations": {}
 }
 
 ```
+
+## :notebook: Principais Extensões do VSCode
+
+- Auto close Tag
+- Auto Rename Tag
+- Dracula Refined
+- GitHub Copilot
+- GitHub Copilot Chat
+- Live server
+- Qodo: the AI Code Review
+- Symbols
+- Tailwind Css IntelliSense
+- Eslint
+- Prettier - Code formatter
